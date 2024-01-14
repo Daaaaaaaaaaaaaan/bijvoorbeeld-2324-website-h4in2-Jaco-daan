@@ -43,14 +43,15 @@ nav a:hover {
 
 .article-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 40px;
 }
 
 article {
   background-color: #ffffff;
   box-sizing: border-box;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .article-image {
@@ -58,10 +59,6 @@ article {
   height: auto;
   max-height: 450px;
   object-fit: cover;
-}
-
-.article3 {
-  width: 100%;
 }
 
 .center-image {
@@ -73,11 +70,11 @@ article {
 }
 
 .article-small {
-  height: 400px;
+  flex-basis: 100%;
 }
 
 .article-medium {
-  height: 500px;
+  flex-basis: calc(50% - 20px);
 }
 
 .article2 h2,
@@ -87,12 +84,6 @@ article {
 .article3 h4,
 .article4 h4 {
   font-weight: bold;
-}
-
-.article2,
-.article3,
-.article4 {
-  width: 100%;
 }
 
 .clearfix::after {

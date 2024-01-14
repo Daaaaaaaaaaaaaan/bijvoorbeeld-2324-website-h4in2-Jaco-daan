@@ -16,24 +16,24 @@ header {
   background-color: #02044d;
   color: #ffffff;
   font-family: Impact, sans-serif;
-  font-size: 30pt;
+  font-size: 4vw; 
   text-align: center;
-  padding: 20px;
+  padding: 2vh;
 }
 
 nav {
   background-color: #02044d;
   color: #ffffff;
   font-family: Impact, sans-serif;
-  font-size: 22pt;
+  font-size: 2.5vw;
   text-align: center;
-  padding: 20px;
+  padding: 2vh;
 }
 
 nav a {
   text-decoration: none;
   color: #ffffff;
-  margin: 0 10px;
+  margin: 0 2vw; 
 }
 
 nav a:hover {
@@ -48,7 +48,7 @@ nav a:hover {
 }
 
 .article1 img {
-  width: 920px;
+  width: 100%; 
   height: auto;
 }
 
@@ -56,21 +56,21 @@ nav a:hover {
 .article2,
 .article3 {
   box-sizing: border-box;
-  padding: 20px;
+  padding: 2vw;
   font-family: Verdana, sans-serif;
-  font-size: 15pt;
+  font-size: 1.5vw;
   color: #000000;
   text-align: left;
 }
 
 .article1 {
-  width: 65%;
-  float: left;
+  width: 100%;
+  float: none; 
 }
 
 .article2 {
-  width: 30%;
-  float: right;
+  width: 100%;
+  float: none; 
 }
 
 .article3 {
@@ -79,11 +79,11 @@ nav a:hover {
 
 footer {
   width: 100%;
-  padding: 20px;
+  padding: 2vw;
   background-color: #26384b;
   color: #ffffff;
   font-family: Verdana, sans-serif;
-  font-size: 15pt;
+  font-size: 1.5vw; 
   text-align: center;
 }
 
@@ -94,7 +94,7 @@ footer p {
 footer a {
   text-decoration: none;
   color: #ffffff;
-  margin: 0 10px;
+  margin: 0 2vw; 
 }
 
 footer a:hover {

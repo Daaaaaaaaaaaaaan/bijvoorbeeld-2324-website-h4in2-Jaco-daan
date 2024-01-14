@@ -41,6 +41,12 @@ nav a:hover {
     color: #0066CC;
 }
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .article1,
 .article2,
 .article3 {
@@ -64,8 +70,8 @@ nav a:hover {
 }
 
 .article2 img {
-    width: 380px;
-    height: 280px; 
+    width: 100%;
+    height: auto;
 }
 
 .article3 {
