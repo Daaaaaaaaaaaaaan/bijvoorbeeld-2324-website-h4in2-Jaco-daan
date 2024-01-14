@@ -51,7 +51,6 @@ article {
   background-color: #ffffff;
   box-sizing: border-box;
   padding: 20px; /* Increased padding for more space */
-  font-weight: bold; /* Make the text bold */
 }
 
 .article-image {
@@ -79,6 +78,15 @@ article {
 
 .article-medium {
   height: 500px; /* Increased height for more space */
+}
+
+.article2 h2,
+.article3 h2,
+.article4 h2,
+.article2 h4,
+.article3 h4,
+.article4 h4 {
+  font-weight: bold; /* Make only h2 and h4 elements bold */
 }
 
 .article2,
