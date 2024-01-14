@@ -6,38 +6,35 @@ body {
 }
 
 header, nav, article {
-  width: 1050px;
-  margin: 20px;
-  padding: 20px;
+  width: 100%; 
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-  height: 100px;
   background-color: #02044d;
   color: #ffffff;
   font-family: Impact, sans-serif;
   font-size: 30pt;
-  margin-top: 0px;
   text-align: center;
-  margin-left: 40px;
-  margin-right: 40px;
+  padding: 20px;
+
 }
 
 nav {
-  height: 75px;
   background-color: #02044d;
   color: #ffffff;
   font-family: Impact, sans-serif;
   font-size: 22pt;
   text-align: center;
-  margin-left: 40px;
-  margin-right: 40px;
-  margin-bottom: 40px;
+  padding: 20px;
 }
 
 nav a {
   text-decoration: none;
   color: #ffffff;
+  margin: 0 10px; /* Add margin to the navigation links */
 }
 
 nav a:hover {
@@ -46,9 +43,10 @@ nav a:hover {
 }
 
 article {
-  width: 1050px;
+  width: 100%;
   float: left;
   background-color: #ffffff;
+  box-sizing: border-box;
 }
 
 article p {
