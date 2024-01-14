@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  header, nav, article {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #02044d;
+    color: #ffffff;
+    font-family: Impact, sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav {
+    background-color: #02044d;
+    color: #ffffff;
+    font-family: Impact, sans-serif;
+    font-size: 22pt;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    color: #0066CC;
+  }

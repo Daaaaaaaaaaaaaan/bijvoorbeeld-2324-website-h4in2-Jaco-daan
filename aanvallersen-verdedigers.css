@@ -41,6 +41,11 @@ nav a:hover {
     color: #0066CC;
 }
 
+.article1 img {
+    width: 700px; /* Aangepaste breedte */
+    height: auto; /* Behoudt de aspect ratio */
+}
+
 .article1,
 .article2,
 .article3 {
@@ -60,12 +65,7 @@ nav a:hover {
 .article2 {
     width: 30%;
     float: right;
-    margin-left: 2%; /* Adjusted margin */
-}
-
-.article2 img {
-    width: 380px;
-    height: 280px; 
+    margin-left: 2%; /* Aangepaste marge */
 }
 
 .article3 {
