@@ -53,19 +53,19 @@ nav a:hover {
 }
 
 .article1 {
-    width: 30%; /* Adjusted width */
-    float: right; /* Adjusted float */
-    margin-left: 2%; /* Adjusted margin */
-}
-
-.article1 img {
-    width: 100%; /* Make the image fill the container */
-    max-height: 500px; /* Set a maximum height to maintain proportions */
+    width: 65%;
+    float: left;
 }
 
 .article2 {
-    width: 65%; /* Adjusted width */
-    float: left; /* Adjusted float */
+    width: 30%;
+    float: right;
+    margin-left: 2%; /* Adjusted margin */
+}
+
+.article2 img {
+    width: 380px;
+    height: 280px; 
 }
 
 .article3 {
