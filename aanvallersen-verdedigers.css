@@ -3,99 +3,106 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-}
-
-header, nav, article {
+  }
+  
+  header, nav, article {
     width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-header {
+  }
+  
+  header {
     background-color: #02044d;
     color: #ffffff;
     font-family: Impact, sans-serif;
     font-size: 30pt;
     text-align: center;
     padding: 20px;
-}
-
-nav {
+  }
+  
+  nav {
     background-color: #02044d;
     color: #ffffff;
     font-family: Impact, sans-serif;
     font-size: 22pt;
     text-align: center;
     padding: 20px;
-}
-
-nav a {
+  }
+  
+  nav a {
     text-decoration: none;
     color: #ffffff;
     margin: 0 10px;
-}
-
-nav a:hover {
+  }
+  
+  nav a:hover {
     text-decoration: underline;
     color: #0066CC;
-}
-
-.article1 img {
-    width: 700px; /* Aangepaste breedte */
-    height: auto; /* Behoudt de aspect ratio */
-}
-
-.article1,
-.article2,
-.article3 {
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .article1 img {
+    width: 920px;
+    height: auto;
+  }
+  
+  .article1,
+  .article2,
+  .article3 {
     box-sizing: border-box;
     padding: 20px;
     font-family: Verdana, sans-serif;
     font-size: 15pt;
     color: #000000;
     text-align: left;
-}
-
-.article1 {
-    width: 65%;
+  }
+  
+  .article1 {
+    width:65%;
     float: left;
-}
-
-.article2 {
+  }
+  
+  .article2 {
+ margin-left: 0px;
     width: 30%;
     float: right;
-    margin-left: 2%; /* Aangepaste marge */
-}
-
-.article3 {
+  }
+  
+  .article3 {
     clear: both;
-}
-
-.image-caption {
+  }
+  
+  .image-caption {
     font-size: 12pt;
     color: #666666;
     text-align: center;
     margin-top: 10px;
-}
-footer {
+  }
+  
+  footer {
     width: 100%;
     padding: 20px;
     background-color: #26384b;
     color: #ffffff;
     font-family: Verdana, sans-serif;
     font-size: 15pt;
-    text-align: center; /* Center-align the content in the footer */
+    text-align: center;
   }
   
   footer p {
-    margin: 0; /* Remove default margin for better centering */
+    margin: 0;
   }
   
   footer a {
     text-decoration: none;
     color: #ffffff;
-    margin: 0 10px; /* Add margin to the footer links */
+    margin: 0 10px;
   }
   
   footer a:hover {
