@@ -33,7 +33,7 @@ nav {
 nav a {
   text-decoration: none;
   color: #ffffff;
-  margin: 0 10px; /* Add margin to the navigation links */
+  margin: 0 10px;
 }
 
 nav a:hover {
@@ -46,6 +46,12 @@ article {
   float: left;
   background-color: #ffffff;
   box-sizing: border-box;
+  padding: 20px;
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
 }
 
 article p {
@@ -57,7 +63,6 @@ article p {
 article h2 {
   font-size: 22pt;
   color: #000000;
-  /* Removed height property */
 }
 
 .clearfix::after {
@@ -73,17 +78,17 @@ footer {
   color: #ffffff;
   font-family: Verdana, sans-serif;
   font-size: 15pt;
-  text-align: center; /* Center-align the content in the footer */
+  text-align: center;
 }
 
 footer p {
-  margin: 0; /* Remove default margin for better centering */
+  margin: 0;
 }
 
 footer a {
   text-decoration: none;
   color: #ffffff;
-  margin: 0 10px; /* Add margin to the footer links */
+  margin: 0 10px;
 }
 
 footer a:hover {

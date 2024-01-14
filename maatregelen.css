@@ -81,6 +81,7 @@ nav a:hover {
     margin-top: 20px;
     background-color: #ffffff;
 }
+
 footer {
     width: 100%;
     padding: 20px;
@@ -88,20 +89,20 @@ footer {
     color: #ffffff;
     font-family: Verdana, sans-serif;
     font-size: 15pt;
-    text-align: center; /* Center-align the content in the footer */
-  }
-  
-  footer p {
-    margin: 0; /* Remove default margin for better centering */
-  }
-  
-  footer a {
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
     text-decoration: none;
     color: #ffffff;
-    margin: 0 10px; /* Add margin to the footer links */
-  }
-  
-  footer a:hover {
+    margin: 0 10px;
+}
+
+.footer a:hover {
     text-decoration: underline;
     color: #0066CC;
-  }
+}

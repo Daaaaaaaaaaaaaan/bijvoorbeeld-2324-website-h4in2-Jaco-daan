@@ -44,13 +44,13 @@ nav a:hover {
 .article-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 40px; /* Increased margin for more space */
+  margin-bottom: 40px;
 }
 
 article {
   background-color: #ffffff;
   box-sizing: border-box;
-  padding: 20px; /* Increased padding for more space */
+  padding: 20px;
 }
 
 .article-image {
@@ -73,11 +73,11 @@ article {
 }
 
 .article-small {
-  height: 400px; /* Increased height for more space */
+  height: 400px;
 }
 
 .article-medium {
-  height: 500px; /* Increased height for more space */
+  height: 500px;
 }
 
 .article2 h2,
@@ -86,7 +86,7 @@ article {
 .article2 h4,
 .article3 h4,
 .article4 h4 {
-  font-weight: bold; /* Make only h2 and h4 elements bold */
+  font-weight: bold;
 }
 
 .article2,
@@ -108,17 +108,17 @@ footer {
   color: #ffffff;
   font-family: Verdana, sans-serif;
   font-size: 15pt;
-  text-align: center; /* Center-align the content in the footer */
+  text-align: center;
 }
 
 footer p {
-  margin: 0; /* Remove default margin for better centering */
+  margin: 0;
 }
 
 footer a {
   text-decoration: none;
   color: #ffffff;
-  margin: 0 10px; /* Add margin to the footer links */
+  margin: 0 10px;
 }
 
 footer a:hover {
